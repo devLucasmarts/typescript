@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.calcRectangleArea = exports.calcSquareArea = exports.calcTriangleArea = exports.sumArray = exports.add = exports.showNameAndAge = exports.greeter = void 0;
+exports.calcTrapezoidArea = exports.calcLozengeArea = exports.calcRectangleArea = exports.calcSquareArea = exports.calcTriangleArea = exports.sumArray = exports.add = exports.showNameAndAge = exports.greeter = void 0;
 function greeter(name) {
     return `Eae ${name}`;
 }
@@ -38,4 +38,16 @@ function calcRectangleArea(base, height) {
     return area;
 }
 exports.calcRectangleArea = calcRectangleArea;
+;
+function calcLozengeArea(D, d) {
+    const area = (D * d) / 2;
+    return area;
+}
+exports.calcLozengeArea = calcLozengeArea;
+;
+function calcTrapezoidArea(height, Base, base) {
+    const area = ((Base + base) * height) / 2;
+    return area;
+}
+exports.calcTrapezoidArea = calcTrapezoidArea;
 ;

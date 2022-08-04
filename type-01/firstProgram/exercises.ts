@@ -32,3 +32,16 @@ export function calcRectangleArea(base: number, height: number): number {
     return area;
 };
 
+export function calcLozengeArea(D: number, d: number): number {
+    const area = (D * d) / 2;
+
+    return area;
+};
+
+export function calcTrapezoidArea(height: number, Base: number, base: number): number {
+    const area = ((Base + base) * height) / 2;
+
+    return area;
+};
+
+
