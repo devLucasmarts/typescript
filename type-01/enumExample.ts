@@ -34,3 +34,17 @@ enum StatusCodes {
 console.log(StatusCodes.OK) // 200
 console.log(StatusCodes[400]) // BadRequest
 console.log(StatusCodes.BadRequest) // 400
+
+// ==================================
+
+enum PontosCardeais {
+    Norte = 'N',
+    Sul = 'S',
+    Leste = 'L',
+    Oeste = 'O',
+};
+
+console.log(PontosCardeais.Norte)
+console.log(PontosCardeais.Sul)
+console.log(PontosCardeais.Leste)
+console.log(PontosCardeais.Oeste)
