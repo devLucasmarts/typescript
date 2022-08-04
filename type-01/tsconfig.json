@@ -100,6 +100,6 @@
     // "skipDefaultLibCheck": true,                      /* Skip type checking .d.ts files that are included with TypeScript. */
     "skipLibCheck": true                                 /* Skip type checking all .d.ts files. */
   },
-  "include":["src/**/*"], //  incluindo todos os arquivos dentro da pasta src 
-  "exclude":["node_modules", "**/*.spec.ts"] // excluindo a pasta node_modules e os arquivos de teste
+  // "include":["src/**/*"], //  incluindo todos os arquivos dentro da pasta src 
+  // "exclude":["node_modules", "**/*.spec.ts"] // excluindo a pasta node_modules e os arquivos de teste
 }
