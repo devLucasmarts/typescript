@@ -9,3 +9,16 @@ function printCoord(pt: Point) {
 };
 
 printCoord({ x: 10, y: -5 });
+
+type Num = {
+    x: number;
+    y: number;
+};
+
+function sumNum(n: Num) {
+    let sum = n.x + n.y;
+
+    return `O resultado da soma é ${sum}`;
+};
+
+console.log(sumNum({ x: 10, y: 10 }));
